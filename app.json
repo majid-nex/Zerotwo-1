@@ -41,16 +41,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "710828300"
+         "value": "1009276516"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "@Developer_boy_sd_owner"
+         "value": "@Mr_godfather9"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyownernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "https://t.me/mr_godfather9"
+         "value": "https://t.me/Zerotwolog"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
