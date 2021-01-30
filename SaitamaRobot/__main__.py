@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
+I am an Anime themed group management bot and made by majid.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
@@ -77,10 +77,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-Thunder_IMG = "https://telegra.ph/file/66455ecc1018b1ac294ef.jpg"
+Zerotwo_IMG = "https://telegra.ph/zerotwo-01-30"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Zertwo is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -200,17 +200,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="☑️ Add Zerotwo to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/zerotwolog{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/THUNDERKINGLOGS")
+                             url="https://t.me/zerotwolog")
                      ],
                      [
                          InlineKeyboardButton(
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/developer-boy-sdowner/ThunderKing")
+                             url="https://github.com/Majid-bez/Zerotwo")
                      ]]))
     else:
         update.effective_message.reply_text(
@@ -683,7 +683,7 @@ And the following:
 THUNDERKING_IMG = "https://telegra.ph/file/66455ecc1018b1ac294ef.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Thunder is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Zertwo is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -803,7 +803,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Thunder King to your group",
+                            text="☑️ Add Zerotwo to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -813,17 +813,17 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/thunderkingsupport")
+                             url="https://t.me/Zerotwolog")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🧾 Getting started guide",
-                             url="https://github.com/developer-boy-sdowner/ThunderKing")
+                             url="https://github.com/Majid-bez/Zerotwo")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/developer-boy-sdowner/ThunderKing")
+                             url="https://github.com/Majid-bez/Zerotwo")
                      ]]))
     else:
         update.effective_message.reply_text(
