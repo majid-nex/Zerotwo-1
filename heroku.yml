@@ -1,0 +1,6 @@
+build:
+  docker:
+    worker: Dockerfile
+run:
+  worker: python3 -m SaitamaRobot
+© 2021 GitHub, Inc.
